@@ -13,7 +13,7 @@
 
 import os
 from datetime import datetime
-DB_PATH = 'exam_pynotes-main\db.csv'
+DB_PATH = 'db.csv'
 
 class Note:
     def __init__(self, id, dtime, header, txt):
